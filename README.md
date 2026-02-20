@@ -9,10 +9,10 @@ Therefore, this repository includes a GitHub Action to perform the build and pus
 
 ## How to Deploy
 
-1.  **Push this code** to your GitHub repository: `aloktripathi1/q-docker-hub-image`.
+1.  **Push this code** to your GitHub repository: `24ds1000061/tds-ga-2-q9`.
 2.  **Go to Settings -> Secrets and variables -> Actions** in your GitHub repository.
 3.  Add the following **Repository secrets**:
-    -   `DOCKER_USERNAME`: Your Docker Hub username (`aloktripathi1`).
+    -   `DOCKER_USERNAME`: Your Docker Hub username (`parasuramaniitm`).
     -   `DOCKER_PASSWORD`: Your Docker Hub access token (or password).
 4.  **Trigger the Workflow**:
     -   Go to the **Actions** tab.
@@ -21,4 +21,4 @@ Therefore, this repository includes a GitHub Action to perform the build and pus
 
 ## Result
 Once the workflow completes, the image will be available at:
-`https://hub.docker.com/repository/docker/aloktripathi1/q-docker-hub-image/general`
+`https://hub.docker.com/repository/docker/parasuramaniitm/q-docker-hub-image/general`
